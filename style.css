@@ -73,6 +73,7 @@ background-color: #a2d2ff;
 display: flex;
 justify-content: space-between;
 }
+
 .imgShoes{
     width: 150px;
     height: 150px;
@@ -81,6 +82,29 @@ justify-content: space-between;
 #dress{
     background-color: var(--purple);
     padding: 1.5rem;
+}
+.dressContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgDress {
+    width: 150px;
+    height: 150px;
+}
+
+#swimsuits{
+    background-color: var(--pink)
+}
+
+.swimsuitsContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgSwim{
+    width: 150px;
+    height: 150px;
 }
 
 #pageFooter{
