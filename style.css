@@ -6,46 +6,56 @@
     --dark-blue: #a2d2ff;
 }
 
+h2 {
+    font-family: 'Crafty Girls', cursive;
+}
+
+p {
+    font-size: 25px;
+}
+
+
 body {
     padding: 0;
     margin: 0;
-    font-size: 16px;
+    font-size: 20px;
 }
 
-#container{
+#container {
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-header{
+header {
     background-color: var(--blue);
     padding: 1.5rem;
     display: flex;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
 
 }
 
-#logo{
+#logo {
     background-color: #a2d2ff;
     width: 50px;
     height: 50px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     text-transform: uppercase;
     color: #fff;
     font-weight: bolder;
+    font-size: 40px;
 }
 
 nav a:link {
     text-decoration: none;
 }
 
-nav a { 
+nav a {
     color: #fff;
     text-transform: uppercase;
     font-weight: bolder;
@@ -53,61 +63,98 @@ nav a {
 }
 
 #loginLink {
-color: #fff;
-font-weight: bolder;
-border-radius: 5px;
-height: 50px;
-width: 100px;
-border: none;
-background-color: #a2d2ff;
+    color: #fff;
+    font-weight: bolder;
+    border-radius: 5px;
+    height: 50px;
+    width: 100px;
+    border: none;
+    background-color: #a2d2ff;
 }
 
-#shoes{
-    background-color: var(--pink);
-    padding: 1.5rem;
+#menuClothes {
+    background-color: var(--dark-pink);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuOptions {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin: 200px;
+    font-size: 25px;
+}
+
+.sectionContent {
+    padding: 4.5rem;
+}
+
+.imagesGallery {
+    max-width: 80rem;
+    margin: auto;
+}
+
+.imageInfo {
     display: flex;
     flex-direction: column;
 }
 
-.shoesContainer{
-display: flex;
-justify-content: space-between;
+.imgProduct {
+    width: 250px;
+    height: 250px;
+    -webkit-box-shadow: 6px 5px 15px 5px rgba(0, 0, 0, 0.44);
+    box-shadow: 6px 5px 15px 5px rgba(0, 0, 0, 0.44);
 }
 
-.imgShoes{
-    width: 150px;
-    height: 150px;
-} 
+.textAndLike {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+    margin-top: 1rem;
+}
 
-#dress{
+#shoes {
+    background-color: var(--pink);
+}
+
+.shoesContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+#dress {
     background-color: var(--purple);
-    padding: 1.5rem;
 }
+
 .dressContainer {
     display: flex;
     justify-content: space-between;
 }
 
-.imgDress {
-    width: 150px;
-    height: 150px;
+.descriptionDress {
+    text-align: center;
 }
 
-#swimsuits{
-    background-color: var(--pink)
+.icon {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
 }
 
-.swimsuitsContainer{
+#swimsuits {
+    background-color: var(--pink);
+    padding: 1.5rem;
+}
+
+.swimsuitsContainer {
     display: flex;
     justify-content: space-between;
 }
 
-.imgSwim{
-    width: 150px;
-    height: 150px;
-}
-
-#pageFooter{
+#pageFooter {
     background-color: #000000;
     padding: 1.5rem;
     color: #fff;
